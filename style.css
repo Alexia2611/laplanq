@@ -41,6 +41,11 @@ body
 	text-align: center;
     font-size: 150%;
 }
+.navbar-light 
+{
+    background-color: white;
+}
+
 
 .titre
 {
