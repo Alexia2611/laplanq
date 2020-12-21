@@ -1,0 +1,372 @@
+/* CORPS */
+body
+{
+	overflow-x:hidden;
+}
+
+.intro
+{
+    width:100vw;
+    height: 100vh;
+    background-image: url(./images/laplanq!2.png);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+    background-size: 100vw;
+}
+
+
+
+#header
+{
+    height: 20vh;
+    background-color: white;
+    justify-content: center;
+}
+
+#footer
+{
+    margin-top: 5vh;
+    height: 20vh;
+    justify-content: center;
+    background-color:#6F9D85;
+    
+    background-image: url(./images/La2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.navigation{
+	text-align: center;
+    font-size: 150%;
+}
+
+.titre
+{
+    width:100vw;
+    height:30vh;
+    font-family: 'Montserrat', sans-serif;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:#457059;
+}
+
+.titre2
+{
+    width:100vw;
+    height:30vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;  
+    text-align: center;
+    vertical-align: middle;
+    color:#457059;
+    text-decoration: underline solid #457059 2px;
+}
+
+.titre2 h2
+{
+    font-size: 350%;
+}
+
+h1{display:inline-block;min-width:50px;}
+h1 a {
+    text-decoration:none;
+    text-align: center;
+    font-size: 120%;
+    color: #457059;
+}
+h1 a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+h1 a:hover
+{
+    width: 90%;
+    background: white;
+    color: #457059;
+    text-decoration:none;
+}
+
+h1 a:hover:after {
+	width: 90%;
+	background: #457059;
+}
+
+
+.planques
+{
+    width:50vw;
+    height:70vh;
+    background-image:url(./images/planques.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+.bar
+{
+    width:50vw;
+    height:70vh;
+    background-image:url(./images/bar.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+.restaurant
+{
+    width:50vw;
+    height:70vh;
+    background-image:url(./images/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    margin-left:5vw;
+}
+
+.avt
+{
+    width:50vw;
+    height:70vh;
+    background-image:url(./images/photo3.jpeg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    margin-left :6vw;
+}
+.zonetext, .zonetext1, .zonetext2, .zonetext3, .zonetext4
+{
+    width:25vw;
+    height: 70vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color:  #457059;
+    display: flex;
+    text-align: justify;
+}
+
+.zonetext,.zonetext1
+{
+    margin-left: -15vw; 
+}
+
+.zonetext2
+{
+    margin-left: 10vw;
+    margin-top: -15vh;
+}
+
+.zonetext3
+{
+    margin-left: 0vw;
+}
+
+.zonetext4
+{
+    margin-left: 35vw;
+    text-align: center;
+    height: 20vh;
+}
+
+
+.barres
+{
+    margin-left: 20vw;;
+    width: 60vw;
+}
+
+
+/* #################### VIE QUOITIDIENNE ################### */
+
+
+.introvie
+{
+    width:100vw;
+    height: 100vh;
+    background-image: url(./images/aventures.png);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+    background-size: 100vw;
+}
+/* #################### LES PLANQUES ################### */
+
+
+.introplanques
+{
+    width:100vw;
+    height: 100vh;
+    background-image: url(./images/planques.png);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+    background-size: 100vw;
+}
+
+.carte
+{
+    margin-left:5vw;
+    margin-top:5vw;
+}
+
+
+
+/* ######################### BAR ####################### */
+
+.introbar
+{
+    width:100vw;
+    height: 100vh;
+    background-image: url(./images/Cocktailparty.png);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+    background-size: 100vw;
+}
+
+.ricard
+{
+    width:50vw;
+    height:50vh;
+    background-image:url(./images/ricard.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.textricard
+{
+    width:25vw;
+    height: 50vh;
+    margin-left: 5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #ffba08;
+    vertical-align: middle;
+    display: flex;
+}
+
+.vodka
+{
+    width:30vw;
+    height:50vh;
+    background-image:url(./images/vodka.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    margin-left: 10vw;
+}
+.textvodka
+{
+    width:25vw;
+    height: 50vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #457b9d;
+    vertical-align: middle;
+    display: flex;
+}
+
+.whisky
+{
+    width:50vw;
+    height:50vh;
+    background-image:url(./images/whisky.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.textwhisky
+{
+    width:25vw;
+    height: 50vh;
+    margin-left: 5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #cb997e;
+    vertical-align: middle;
+    display: flex;
+}
+
+
+.beer
+{
+    width:50vw;
+    height:50vh;
+    background-image:url(./images/beer.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    margin-left: 5vw;;
+}
+.textbeer
+{
+    width:25vw;
+    height: 50vh;
+    margin-left: 5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #f48c06;
+    vertical-align: middle;
+    display: flex;
+}
+
+.shot
+{
+    width:50vw;
+    height:50vh;
+    background-image:url(./images/shot.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.textshot
+{
+    width:25vw;
+    height: 50vh;
+    margin-left: 5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #cb997e;
+    vertical-align: middle;
+    display: flex;
+}
+
+
+.bp
+{
+    width:30vw;
+    height:50vh;
+    background-image:url(./images/beerpong.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    margin-left :10vw;
+}
+.textbp
+{
+    width:25vw;
+    height: 50vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color:  #606c38;
+    vertical-align: middle;
+    display: flex;
+    margin-left: 5vw;;
+}
+
+/* ##################### RESTAURANT ################ */
+
+.introrestau
+{
+    width:100vw;
+    height: 100vh;
+    background-image: url(./images/restau.png);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+    background-size: 100vw;
+}
